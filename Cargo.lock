@@ -3,5 +3,14 @@
 version = 4
 
 [[package]]
+name = "ctnapi"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "375b8a1148c54fafed1e2974c79a7c748651dfc0620c81876ccdf00b686f9f19"
+
+[[package]]
 name = "ctntui"
 version = "0.1.0"
+dependencies = [
+ "ctnapi",
+]

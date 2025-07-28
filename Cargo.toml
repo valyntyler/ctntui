@@ -6,3 +6,4 @@ description = "An API for modeling games of CTN"
 license = "GPL-3.0"
 
 [dependencies]
+ctnapi = "0.1.0"
